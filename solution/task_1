@@ -1,1 +1,10 @@
-print
+def pull(n: int):
+	stars_4=0
+	stars_5=0
+	if n >= 10 :
+		stars_4=(n//10)
+	if n >= 90 :
+		stars_5=(n//90)
+	return(stars_4, stars_5)
+pass
+	
